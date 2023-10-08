@@ -11,8 +11,8 @@ local RoundSignals = ReplicatedStorage:WaitForChild("Singals"):WaitForChild("Rou
 local GetTimeSignal = RoundSignals:WaitForChild("GetTime")
 
 -- In seconds
-local ROUND_DURATION = 3*60
-local INTERMISSION_DURATION = .5*60
+local ROUND_DURATION = .2*60
+local INTERMISSION_DURATION = .2*60
 local currentDuration = 0
 
 local startTime = tick()
